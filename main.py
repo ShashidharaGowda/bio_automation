@@ -104,7 +104,7 @@ with sync_playwright() as p:
     page = browser.new_page()
 
     open_login_page(page)
-    new_url = enter_mobile_number(page, "9986347891")
+    new_url = enter_mobile_number(page, "0000000000")
     select_authentication(page)
     navigate_to_shop_details(page)
     apply_filters(page)
